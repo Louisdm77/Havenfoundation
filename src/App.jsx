@@ -159,7 +159,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Orphans */}
             <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
-              <img src="https://picsum.photos/id/29/800/500" alt="Orphan children" className="w-full h-80 object-cover" />
+              <img src="https://i.pinimg.com/1200x/87/c1/a2/87c1a2d52e4996392c47f8167cc75bff.jpg" alt="Orphan children" className="w-full h-80 object-cover" />
               <div className="p-10">
                 <h3 className="text-3xl font-semibold mb-4">Orphan Children</h3>
                 <p className="text-slate-600">We provide education, healthcare, nutrition, and emotional support in our safe home in the United States.</p>
@@ -173,7 +173,7 @@ function App() {
 
             {/* Pets */}
             <div className="bg-white rounded-3xl overflow-hidden shadow-xl">
-              <img src="https://picsum.photos/id/201/800/500" alt="Rescued animals" className="w-full h-80 object-cover" />
+              <img src="https://i.pinimg.com/736x/e0/66/d7/e066d732706ea0de297c6c3e344cf93a.jpg" alt="Rescued animals" className="w-full h-80 object-cover" />
               <div className="p-10">
                 <h3 className="text-3xl font-semibold mb-4">Pet Rescue &amp; Shelter</h3>
                 <p className="text-slate-600">We rescue street animals, provide veterinary care, spay/neuter programs, and find forever homes.</p>
