@@ -22,10 +22,10 @@ function App() {
 
   // Sample data
   const teamMembers = [
-    { name: "Dr. Bella Carroll", role: "Founder & CEO", img: "https://picsum.photos/id/64/400/400", bio: "Pediatrician & animal lover on a mission to heal both hearts and paws." },
-    { name: "Emmanuel Smith", role: "Orphan Care Director", img: "https://picsum.photos/id/65/400/400", bio: "Former orphanage manager bringing joy to 300+ children yearly." },
-    { name: "Jeniffer Aniston", role: "Pet Rescue Lead", img: "https://picsum.photos/id/201/400/400", bio: "Veterinarian who has rescued & rehomed over 1,200 animals." },
-    { name: "Simon Rory", role: "Community Outreach", img: "https://picsum.photos/id/91/400/400", bio: "Volunteer coordinator & storyteller." },
+     { name: "Jeniffer Aniston", role:"Founder & CEO" , img: "https://i.pinimg.com/736x/e5/ba/5d/e5ba5d42ba1dcb0f59ab42532ee7b03b.jpg", bio: "Veterinarian who has rescued & rehomed over 1,200 animals." },
+    { name: "Dr. Bella Carroll", role: "Pet Rescue Lead", img: "https://i.pinimg.com/736x/d6/e7/65/d6e7655a95c2fc06da21c080ef0f619a.jpg", bio: "Pediatrician & animal lover on a mission to heal both hearts and paws." },
+    { name: "Emmanuel Smith", role: "Orphan Care Director", img: "https://i.pinimg.com/736x/b3/d9/8c/b3d98c38b0c627565f98e2430615c334.jpg", bio: "Former orphanage manager bringing joy to 300+ children yearly." },
+    { name: "Simon Rory", role: "Community Outreach", img: "https://i.pinimg.com/736x/ba/fd/9d/bafd9dd382ef2f7a6df4d4214578100f.jpg", bio: "Volunteer coordinator & storyteller." },
   ];
 
   const galleryImages = [
