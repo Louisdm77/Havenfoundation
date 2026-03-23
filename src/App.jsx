@@ -22,19 +22,19 @@ function App() {
 
   // Sample data
   const teamMembers = [
-    { name: "Dr. Aisha Bello", role: "Founder & CEO", img: "https://picsum.photos/id/64/400/400", bio: "Pediatrician & animal lover on a mission to heal both hearts and paws." },
-    { name: "Emmanuel Okoro", role: "Orphan Care Director", img: "https://picsum.photos/id/65/400/400", bio: "Former orphanage manager bringing joy to 300+ children yearly." },
-    { name: "Fatima Yusuf", role: "Pet Rescue Lead", img: "https://picsum.photos/id/201/400/400", bio: "Veterinarian who has rescued & rehomed over 1,200 animals." },
-    { name: "Chinedu Eze", role: "Community Outreach", img: "https://picsum.photos/id/91/400/400", bio: "Volunteer coordinator & storyteller." },
+    { name: "Dr. Bella Carroll", role: "Founder & CEO", img: "https://picsum.photos/id/64/400/400", bio: "Pediatrician & animal lover on a mission to heal both hearts and paws." },
+    { name: "Emmanuel Smith", role: "Orphan Care Director", img: "https://picsum.photos/id/65/400/400", bio: "Former orphanage manager bringing joy to 300+ children yearly." },
+    { name: "Jeniffer Aniston", role: "Pet Rescue Lead", img: "https://picsum.photos/id/201/400/400", bio: "Veterinarian who has rescued & rehomed over 1,200 animals." },
+    { name: "Simon Rory", role: "Community Outreach", img: "https://picsum.photos/id/91/400/400", bio: "Volunteer coordinator & storyteller." },
   ];
 
   const galleryImages = [
-    "https://picsum.photos/id/1015/800/600", // kids
-    "https://picsum.photos/id/201/800/600",  // dogs
-    "https://picsum.photos/id/29/800/600",   // children playing
-    "https://picsum.photos/id/160/800/600",  // rescued kitten
-    "https://picsum.photos/id/251/800/600",  // family moment
-    "https://picsum.photos/id/318/800/600",  // puppies
+    "https://i.pinimg.com/736x/b3/e8/f5/b3e8f5d85c91fb372e6e8e1cd0b50b3a.jpg", 
+    "https://i.pinimg.com/736x/b6/01/2d/b6012d2cb8a095851884659f3b0be9cd.jpg",
+    "https://i.pinimg.com/736x/83/de/a8/83dea81d8a10f00e26e350a1a1e36620.jpg",
+    "https://i.pinimg.com/736x/32/2a/17/322a173e22b0cd9affc1d4f32394954e.jpg",
+    "https://i.pinimg.com/736x/c2/b9/16/c2b916624deb48882a68f5dc6a648574.jpg",   
+    "https://i.pinimg.com/1200x/ed/b5/08/edb5083704907b2f22f685d6ed704109.jpg", 
   ];
 
   return (
@@ -130,7 +130,7 @@ function App() {
             <span className="uppercase tracking-[3px] text-emerald-600 text-sm font-semibold">Since 2019 • Ibadan, Nigeria</span>
             <h2 className="text-5xl font-bold text-slate-900 mt-3 leading-tight">We believe every child and every animal deserves love.</h2>
             <p className="mt-8 text-lg text-slate-600 leading-relaxed">
-              Paws &amp; Hearts Haven Foundation is a registered Nigerian charity that operates two rescue programs under one roof: 
+              Paws &amp; Hearts Haven Foundation is a registered American charity that operates two rescue programs under one roof: 
               a children's home for orphans and a state-of-the-art animal shelter. 
               We have already placed 187 children in loving adoptive families and rehomed 1,342 pets.
             </p>
@@ -162,7 +162,7 @@ function App() {
               <img src="https://picsum.photos/id/29/800/500" alt="Orphan children" className="w-full h-80 object-cover" />
               <div className="p-10">
                 <h3 className="text-3xl font-semibold mb-4">Orphan Children</h3>
-                <p className="text-slate-600">We provide education, healthcare, nutrition, and emotional support in our safe home in Ibadan.</p>
+                <p className="text-slate-600">We provide education, healthcare, nutrition, and emotional support in our safe home in the United States.</p>
                 <ul className="mt-6 space-y-3 text-sm">
                   <li className="flex items-center gap-3"><span className="text-emerald-500">✔</span> School fees for 120 children</li>
                   <li className="flex items-center gap-3"><span className="text-emerald-500">✔</span> Medical care &amp; counseling</li>
@@ -214,7 +214,7 @@ function App() {
       <section id="team" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-5xl font-bold text-center mb-16">Meet the Hearts Behind the Haven</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
             {teamMembers.map((member, i) => (
               <div key={i} className="group">
                 <img src={member.img} alt={member.name} className="rounded-3xl w-full aspect-square object-cover shadow-xl group-hover:scale-105 transition duration-300" />
@@ -244,7 +244,7 @@ function App() {
       {/* DONATE SECTION */}
       <section id="donate" className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-5xl font-bold mb-4">Every Naira Counts</h2>
+          <h2 className="text-5xl font-bold mb-4">Every Dollar Counts</h2>
           <p className="text-xl text-slate-600 mb-12">Your donation directly feeds a child, vaccinates a puppy, or pays school fees.</p>
           
           <button
@@ -254,7 +254,7 @@ function App() {
             DONATE WITH PAYPAL NOW
           </button>
 
-          <p className="mt-8 text-sm text-slate-500">100% transparent • Tax-deductible in Nigeria</p>
+          <p className="mt-8 text-sm text-slate-500">100% transparent • Tax-deductible in The US</p>
         </div>
       </section>
 
@@ -317,7 +317,7 @@ function App() {
               <div className="w-9 h-9 bg-emerald-500 rounded-full flex items-center justify-center text-2xl">🐾❤️</div>
               <span className="text-2xl font-bold">Paws &amp; Hearts Haven</span>
             </div>
-            <p className="text-slate-400">Ibadan, Oyo State, Nigeria<br />Registered Charity: CAC/IT/NO 123456</p>
+            <p className="text-slate-400">Miami, Florida, United States of America</p>
           </div>
 
           <div className="grid grid-cols-2 gap-8 text-sm">
