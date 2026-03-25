@@ -359,7 +359,7 @@ function App() {
                       <span className="text-5xl">₮</span>
                       <div>
                         <p className="font-semibold text-lg">USDT (Tether)</p>
-                        <p className="text-sm text-amber-600">ERC-20 (Ethereum Network Only)</p>
+                        <p className="text-sm text-amber-600">TRC-20 (TRON Network Only)</p>
                       </div>
                     </div>
                     <div className="bg-slate-100 p-4 rounded-2xl font-mono text-sm break-all mb-4">
